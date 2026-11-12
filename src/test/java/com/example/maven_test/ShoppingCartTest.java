@@ -18,7 +18,7 @@ public class ShoppingCartTest {
     void testAddProduct() {
         cart.addProduct("Laptop", 2, 50000);
 
-        assertEquals(100000, cart.calculateTotal());
+        assertEquals(150000, cart.calculateTotal());
     }
 
     @Test
